@@ -1,0 +1,39 @@
+= Todo/Maybe =
+
+== Types ==
+F = Feature       M = Maybe
+N = Nice to have  T = Technical feature/solution
+? = Makes sense/required?
+
+== Statuses ==
+W = Working on
+D = Done
+/ = Not doing
+
+== List ==
+
+F [D] Package files and installation instructions in such a way that it is
+      easy to add new
+T [D] Easy to use options parser
+T [D] Enable user to choose a install path
+? [D] Choose between python 2 and 3 => 3
+F [D] Enable user to specify a packages path
+
+M [ ] Identify platform/dist
+F [ ] Check if required libs are installed (dependency check)
+F [ ] Install required lib(s) if not found
+F [ ] Check if required packages are installed
+? [ ] Install required package automatically (through switch or always)
+F [W] Install requested package
+      [D] Links
+      [ ] Copys
+      [ ] Extracts
+      [ ] Pre-installs
+      [ ] Post-installs
+F [ ] Uninstall package
+F [ ] Reinstall package (unistall then install)
+F [ ] Task type: Append to file (target, content)
+N [?] Bootstrap shell script (install python etc.)
+F [ ] Identify machine and install a preset of packages
+F [ ] Fetch packages from remote (http)
+F [ ] Run just a specific task when installing (--task <some-task>)

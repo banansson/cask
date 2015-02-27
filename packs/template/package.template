@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "author": "name <email>"
+  "description": "",
+  "depends": [
+    "", ""
+  ],
+  "items": [
+    {
+      "type": "link",
+      "source": "",
+      "target": "~/"
+    }
+  ]
+}
